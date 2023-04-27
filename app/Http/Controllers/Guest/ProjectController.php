@@ -12,7 +12,8 @@ class ProjectController extends Controller
     {
         $posts = Post::all();
 
-        return response()->json($posts);
+        return response()->json($posts)
+        ->header('Access-Control-Allow-Origin', '*');
     }
 
     public function show(Post $post)

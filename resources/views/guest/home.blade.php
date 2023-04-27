@@ -35,14 +35,6 @@
                             </a>
                         </div>
                     </div>
-                    <div class="row justify-content-center my-3">
-                        <div class="col-md-13 my-2">
-                            <a href="{{ route('guest.projects.index') }}" target="_blank" class="btn btn-success btn-lg w-100">
-                                Guarda i miei progetti
-                            </a>
-                            
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
